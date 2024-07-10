@@ -1,28 +1,28 @@
 # main text of home
-title: Scarlett Zhao
+title: Zijing Zhao
 bio: 
 Columbia University Mathematics of Finance Student
 Travel, Music and Photography
 
 # twitter summary info
-description: A blog about technology and stuff related
+# description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
 external-image: true
-picture: assets/images/profile.jpg
+picture: https://media.licdn.com/dms/image/D4E03AQH_R0M8mrSK6w/profile-displayphoto-shrink_800_800/0/1706811374624?e=1726099200&v=beta&t=rVjLjCji337rckGmMR1vkI34zJ8HWv2S6CN2YXqKJR4
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
-dark-theme: auto
+dark-theme: false
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://github.com/JeniferZhao/indigo
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -36,26 +36,26 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: myinstagram
+linkedin: https://www.linkedin.com/in/zijingzhao/
+github: https://github.com/JeniferZhao
+email: zhaozijing7@gmail.com
 
-authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+#authors:
+  # johndoe:
+  #   name: John Doe
+  #   bio: A Man who travels the world eating noodles
+  #   external-image: false
+  #   picture: assets/images/profile.jpg
+  #   twitter: johndoe
+  # jamesfoster:
+  #   name: James Foster
+  #   bio: A Man who develops software with coffee
+  #   external-image: false
+  #   picture: assets/images/james.jpg
+  #   twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -63,11 +63,11 @@ authors:
 width: normal
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+#projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -79,13 +79,13 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+#post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
-animation: true
+animation: false
 
 # add default values to specific pages or layouts
 defaults:
